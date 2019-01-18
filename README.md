@@ -24,7 +24,28 @@ optional arguments:
   -a, --annotate        annotate nodes
 ```
 
+## Example
+
+The following command will open a matplotlib window containing a scatterplot of the csv
+data:
+
+```
+./pqplot.py -c all-presentation -v NIST\ Software\ Performance\ Tests\ -\ KEM.csv -x "Enc Average" -y pk
+```
+
+The reslting plot looks as follows:
+
+![](images/plot-full.png)
+
+The interactive viewer can be used to further zoom and move the plot, as well as to
+change the axis anotation and scale:
+
+![](images/plot-zoomed.png)
+
+The interactive plot can easily be exported as png image using the save function.
+
 ## LEGAL
 
 The pq-bench.py file is released under the 2-clause BSD license, see [LICENSE](LICENSE).
 The supplied csv file is taken from the [safecrypto.eu online pqc benchmarks](https://www.safecrypto.eu/pqclounge/software-analysis-kem/).
+
