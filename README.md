@@ -46,6 +46,6 @@ The interactive plot can easily be exported as png image using the save function
 
 ## LEGAL
 
-The pq-bench.py file is released under the 2-clause BSD license, see [LICENSE](LICENSE).
+The pqplot.py script is released under the 2-clause BSD license, see [LICENSE](LICENSE).
 The supplied csv file is taken from the [safecrypto.eu online pqc benchmarks](https://www.safecrypto.eu/pqclounge/software-analysis-kem/).
 
